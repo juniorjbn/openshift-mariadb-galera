@@ -111,8 +111,9 @@ objects:
           privileged: true
           RunAsUser: 0
         serviceAccountName: mysql
+        serviceAccount: mysql
         terminationGracePeriodSeconds: 30
         volumes:
         - hostPath:
-            path: /var/lib/mysql
+            path: /opt/mysql
           name: "${VOLUME_PV_NAME}"

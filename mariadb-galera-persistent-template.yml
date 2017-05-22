@@ -23,9 +23,9 @@ parameters:
   value: datadir
   required: true
 - name: VOLUME_CAPACITY
-  description: Volume space available for data, e.g. 512Mi, 2Gi.
+  description: Volume space available for data, e.g. 5Gi , 10Gi and 20Gi.
   required: true
-  value: 2Gi
+  value: 5Gi
 - name: MYSQL_USER
   description: The username that clients will use to connect to the server
   value: user

@@ -8,6 +8,8 @@ metadata:
     iconClass: icon-mariadb
     tags: database,mysql,replication,mariadb,galera,nfs
 parameters:
+- name: NAME
+  description: Application name
 - name: MYSQL_SERVICE_NAME
   description: Service name for the MariaDB service
   value: galera
